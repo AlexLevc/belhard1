@@ -1,5 +1,5 @@
 # без использования collections, написать программу которая будет создавать словарь
 # для подсчитывания колличества вхождений каждой буквы в текст введенный с клавиатуры
 text = input()
-list = {i: text.count (i) for i in set (text)}
+list = {i: text.count(i) for i in set(text)}
 print (str (list))
